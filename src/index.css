@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color:#ebf7ff; ;
+
+}
+
+main{  
+    text-align: center;
+    font-family: 'Macondo', cursive;
+  
+}
+
+.loading{
+    margin-top: 100px;
+}
+
+#heading{
+    
+    font-size: 3.2rem;
+    margin-bottom: 5px;
+    position: relative;
+    margin-top: 10px;
+    
+}
+
+#underline{
+ border: 2px solid #398339;
+  background: #398339;
+  width:121px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#loading{
+    text-align: center;
+    background:black;
+}
+
+.tour-info{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.section{
+  width: 1000px;
+  margin: auto;
+  /* border: 2px solid black; */
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgb(181, 180, 180);
+  
+}
+
+
+
+.section > img{
+    width: 1000px;
+}
+
+.tour-info :first-child{
+    margin: 0px 0px 10px 10px;
+    font-size: 1.5rem;
+}
+.tour-info :last-child{
+ margin: 0px 20px 10px 0px;
+ color: rgb(16, 16, 223);
+}
+
+footer{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Rd_btn{
+    color: rgb(16, 16, 223);
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Macondo', cursive;
+
+}
+#Del_btn{
+    font-size: 1.5rem;
+    font-family: 'Macondo', cursive;
+    color: orangered;
+    padding: 0px 5px 0px 5px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
